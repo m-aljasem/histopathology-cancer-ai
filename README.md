@@ -43,7 +43,7 @@ The task is **binary classification**:
 - **IDC (+)** – Invasive Ductal Carcinoma present  
 - **IDC (−)** – No carcinoma
 
-It builds on the popular Kaggle **“Breast Histopathology Images”** dataset and provides:
+It uses the **Breast Histopathology Images** dataset and provides:
 
 - A training pipeline
 - Streamlit app for easy inference
@@ -164,7 +164,7 @@ histopathology-cancer-ai/
 ## 🧬 Dataset
 
 - **Name**: Breast Histopathology Images (IDC_regular_ps50_idx5)  
-- **Source**: Kaggle – paultimothymooney/breast-histopathology-images  
+- **Source**: Breast Histopathology Images Dataset  
 - **Resolution**: 50×50 pixel RGB patches  
 
 Labels:
