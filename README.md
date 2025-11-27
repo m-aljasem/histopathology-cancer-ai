@@ -87,7 +87,7 @@ pip install -r requirements-dev.txt
 ### 1️⃣ Train the Model
 
 ```bash
-cd breast-patho
+cd histopathology-cancer-ai
 python src/train.py
 ```
 
@@ -100,7 +100,7 @@ models/histopathology_model.h5
 ### 2️⃣ Run the Streamlit App
 
 ```bash
-cd breast-patho
+cd histopathology-cancer-ai
 streamlit run app.py
 ```
 
@@ -144,7 +144,7 @@ confidence = pred[label]
 ## 🗂 Project Structure
 
 ```text
-breast-patho/
+histopathology-cancer-ai/
 ├── app.py                    # Streamlit app
 ├── config/
 ├── data/                     # Histopathology dataset (IDC_regular_ps50_idx5)

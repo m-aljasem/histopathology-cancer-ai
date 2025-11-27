@@ -3,7 +3,7 @@ requires = ["setuptools>=61.0", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "breast-patho"
+name="histopathology-cancer-ai"
 version = "1.0.0"
 description = "Breast Histopathology Cancer Detection using CNN"
 readme = "README.md"

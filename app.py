@@ -7,8 +7,8 @@ from pathlib import Path
 from src.explainability import ModelExplainer
 from src.model import build_cnn_model
 
-st.set_page_config(page_title="Breast Histopathology", page_icon="🔬")
-st.title("🔬 Breast Histopathology Cancer Detection")
+st.set_page_config(page_title="Histopathology Cancer AI", page_icon="🔬")
+st.title("Histopathology Cancer AI")
 
 MODELS_DIR = Path("models")
 WEIGHTS_PATH = MODELS_DIR / "histopathology_model.h5"
